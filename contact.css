@@ -1,0 +1,38 @@
+*{
+    font-family: cursive;
+    color: rgb(20, 20, 19);
+    font-size: 0.5cm;
+    background-color: aquamarine;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(205, 162, 223);
+    }
+  }
+  
