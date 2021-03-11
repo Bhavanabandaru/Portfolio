@@ -9,3 +9,36 @@
       background-color: rgb(205, 162, 223);
     }
   }
+  /* #link {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+  }
+  
+  .l1 {
+    display: inline;
+  } */
+  #link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aquamarine;
+  }
+  
+  .l1 {
+    float: left;
+  }
+  
+  .l1 a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .l1 a:hover {
+    background-color: #111;
+  }
+  
