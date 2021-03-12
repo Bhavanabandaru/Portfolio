@@ -2,7 +2,7 @@
     font-family: cursive;
     color: rgb(20, 20, 19);
     font-size: 0.5cm;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .fa {
     padding: 20px;
@@ -35,6 +35,10 @@
       background-color: rgb(205, 162, 223);
     }
   }
+  body{
+    background-image: url(background.jpg);
+    /* height: 100vh; */
+}
   /* #link {
     list-style-type: none;
     margin: 1;
@@ -48,17 +52,23 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width:100%;
     overflow: hidden;
-    background-color:aquamarine;
+    background-color:lightblue;
   }
   
   .nav-item {
     float: left;
   }
-  
   .nav-item a {
     display: block;
-    color:rgb(119, 101, 101);
+    color:black;
+    padding: 14px 16px;
+  }
+  
+  /* .nav-item a {
+    display: block;
+    color:rgb(20, 20, 20);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,5 +76,5 @@
   
   .nav-item a:hover {
     background-color: rgb(250, 246, 246);
-  }
+  } */
   
