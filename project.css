@@ -18,7 +18,7 @@
   .l1 {
     display: inline;
   } */
-  #link {
+  .navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,19 +26,18 @@
     background-color:aquamarine;
   }
   
-  .l1 {
+  .nav-item {
     float: left;
   }
   
-  .l1 a {
+  .nav-item a {
     display: block;
-    color:black;
+    color:rgb(119, 101, 101);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  .l1 a:hover {
-    background-color: #111;
+  .nav-item a:hover {
+    background-color: rgb(250, 246, 246);
   }
-  
