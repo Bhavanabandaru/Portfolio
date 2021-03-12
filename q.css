@@ -1,18 +1,30 @@
 *{
     font-family: cursive;
     color: rgb(20, 20, 19);
-    font-size: 0.5cm;
+    /* font-size: 0.5cm; */
     /* background-color: aquamarine; */
+}
+#th{
+  font-size: 0.5cm;
+}
+.ach{
+  font-size: 0.5cm;
+}
+.cpl{
+  font-size: 0.5cm;
+}
+.w{
+  font-size: 0.5cm;
 }
 @media only screen and (max-width: 600px) {
     body {
       background-color: rgb(205, 162, 223);
     }
   }
-  body{
+  /* body{
     background-image: url(background.jpg);
     /* height: 100vh; */
-}
+} */
   /* #link {
     list-style-type: none;
     margin: 1;
@@ -28,11 +40,12 @@
     padding: 0;
     overflow: hidden;
     width:100%;
-    background-color:lightblue;
+    /* background-color:lightblue; */
     /* text-decoration-color: black */
   }
   .nav-item a {
     display: block;
+    font-size: 0.5cm;
     color:black;
     padding: 14px 16px;
   }

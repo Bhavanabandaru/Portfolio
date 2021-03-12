@@ -1,8 +1,11 @@
 *{
     font-family: cursive;
     color: rgb(20, 20, 19);
-    font-size: 0.5cm;
+    /* font-size: 0.5cm; */
     /* background-color: aquamarine; */
+}
+.c{
+  font-size: 0.5cm;
 }
 .fa {
     padding: 20px;
@@ -35,10 +38,10 @@
       background-color: rgb(205, 162, 223);
     }
   }
-  body{
+  /* body{
     background-image: url(background.jpg);
     /* height: 100vh; */
-}
+} */
   /* #link {
     list-style-type: none;
     margin: 1;
@@ -54,7 +57,7 @@
     padding: 0;
     width:100%;
     overflow: hidden;
-    background-color:lightblue;
+    /* background-color:lightblue; */
   }
   
   .nav-item {
@@ -62,6 +65,7 @@
   }
   .nav-item a {
     display: block;
+    font-size: 0.5cm;
     color:black;
     padding: 14px 16px;
   }
